@@ -42,7 +42,7 @@ nav ul li a {
   transition: 0.3s;
   margin: 10px;
   font-size: 18px;
-  animation: fadingNavContent 2.5s linear forwards;
+  animation: fadingNavContent 1.5s linear forwards;
 }
 
 #logo {
@@ -54,10 +54,10 @@ nav ul li a {
   margin: 0rem 0rem 0rem 1rem;
   display: block;
   max-width: max-content;
-  animation: fadingNavContent 2.5s linear forwards;
+  animation: fadingNavContent 1.5s linear forwards;
 }
 nav {
-  animation: rolling 2s linear forwards;
+  animation: rolling 1s linear forwards;
 }
 @keyframes rolling {
   0% {
@@ -231,4 +231,29 @@ nav {
   padding: 10px;
   margin-top: 20px;
   width: 100%;
+}
+
+.container{
+  animation: fading 2s linear forwards;
+}
+
+@keyframes fading{
+  0%{
+    opacity: 0;
+  }
+  
+
+  50%{
+    opacity: 0.5;
+    height: 20%;
+  }
+
+  75%{
+    opacity: 0.7;
+    height: 70%;
+  }
+
+  100%{
+    opacity: 1;
+  }
 }
