@@ -1,0 +1,20 @@
+{
+  "name": "bank-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "mongoose": "^5.11.11",
+    "package.json": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarMo7/Bank-System---NodeJS"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omar",
+  "license": "ISC"
+}

@@ -6,12 +6,12 @@ const password2 = document.getElementById('password2');
 
 form.addEventListener('submit', e => {
   e.preventDefault();
-
+  
   checkInputs();
 });
 
 function checkInputs() {
-  // trim to remove the whitespaces
+  // trim to remove the whitespaces 
   const usernameValue = username.value.trim();
   const emailValue = email.value.trim();
   const passwordValue = password.value.trim();

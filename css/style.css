@@ -1,3 +1,5 @@
+* {box-sizing:border-box}
+
 body {
   background-color: bisque;
   font-family: "Merriweather", serif;
@@ -234,26 +236,28 @@ nav {
 }
 
 .container{
-  animation: fading 2s linear forwards;
+  animation: fading 1s linear forwards;
 }
 
 @keyframes fading{
   0%{
     opacity: 0;
+    width: 0px;
   }
   
 
   50%{
     opacity: 0.5;
-    height: 20%;
+    width: 200px;
   }
 
   75%{
     opacity: 0.7;
-    height: 70%;
+    width: 300px;
   }
 
   100%{
     opacity: 1;
+    width: 400px;
   }
 }
